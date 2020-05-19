@@ -1,0 +1,456 @@
+# 
+# +------------------------------------------------------+ #
+# |                       Notes                          | #
+# +------------------------------------------------------+ #
+ops-name-color: f
+nickname-prefix: ''
+max-nick-length: 50
+ignore-colors-in-max-nick-length: false
+change-displayname: true
+teleport-safety: true
+force-disable-teleport-safety: false
+teleport-cooldown: 0
+teleport-delay: 0
+teleport-invulnerability: 4
+heal-cooldown: 60
+near-radius: 200
+permission-based-item-spawn: false
+spawnmob-limit: 10
+warn-on-smite: true
+drop-items-if-full: false
+notify-no-new-mail: true
+socialspy-commands:
+- msg
+- w
+- r
+- mail
+- m
+- t
+- whisper
+- emsg
+- tell
+- er
+- reply
+- ereply
+- email
+- action
+- describe
+- eme
+- eaction
+- edescribe
+- etell
+- ewhisper
+- pm
+mute-commands:
+- f
+- kittycannon
+player-commands:
+- afk
+- afk.auto
+- back
+- back.ondeath
+- balance
+- balance.others
+- balancetop
+- build
+- chat.color
+- chat.format
+- chat.shout
+- chat.question
+- clearinventory
+- compass
+- depth
+- delhome
+- getpos
+- geoip.show
+- help
+- helpop
+- home
+- home.others
+- ignore
+- info
+- itemdb
+- kit
+- kits.tools
+- list
+- mail
+- mail.send
+- me
+- motd
+- msg
+- msg.color
+- nick
+- near
+- pay
+- ping
+- protect
+- r
+- rules
+- realname
+- seen
+- sell
+- sethome
+- setxmpp
+- signs.create.protection
+- signs.create.trade
+- signs.break.protection
+- signs.break.trade
+- signs.use.balance
+- signs.use.buy
+- signs.use.disposal
+- signs.use.enchant
+- signs.use.free
+- signs.use.gamemode
+- signs.use.heal
+- signs.use.info
+- signs.use.kit
+- signs.use.mail
+- signs.use.protection
+- signs.use.repair
+- signs.use.sell
+- signs.use.time
+- signs.use.trade
+- signs.use.warp
+- signs.use.weather
+- spawn
+- suicide
+- time
+- tpa
+- tpaccept
+- tpahere
+- tpdeny
+- warp
+- warp.list
+- world
+- worth
+- xmpp
+skip-used-one-time-kits-from-kit-list: false
+kits:
+  50Gift:
+    delay: 6000
+    items:
+    - 339:0 1 name:§r§8*_§a$§f50_Store_Giftcard_§8* lore:§r§r§8*_§fUnlocked_by_§amining§f_1_billion_blocks!|§r§8*_§fTo_redeem,_DM_§aAkuroPlay§f_on_discord.|§r§8*_§c§lNOTE:_§7Do_not_§a[item]_§7this_in_public_chat.
+  100Gift:
+    delay: 6000
+    items:
+    - 339:0 1 name:§r§8*_§a$§f100_Store_Giftcard_§8* lore:§r§r§8*_§fUnlocked_by_§amining§f_2_billion_blocks!|§r§8*_§fTo_redeem,_DM_§aAkuroPlay§f_on_discord.|§r§8*_§c§lNOTE:_§7Do_not_§a[item]_§7this_in_public_chat.
+  250Gift:
+    delay: 6000
+    items:
+    - 339:0 1 name:§r§8*_§a$§f250_Store_Giftcard_§8* lore:§r§r§8*_§fUnlocked_by_§amining§f_5_billion_blocks!|§r§8*_§fTo_redeem,_DM_§aAkuroPlay§f_on_discord.|§r§8*_§c§lNOTE:_§7Do_not_§a[item]_§7this_in_public_chat.
+  WaterKeys:
+    delay: 999999999
+    items:
+    - 131:0 1 name:§9§l2§f§l0§9§l2§f§l0_§9§lK§f§lE§9§lY lore:§7This_crate_key_can_be_used|§7at_§f/warp_crates§7.
+    - 131:0 5 name:§d§lOP_KEY lore:§7This_crate_key_can_be_used|§7at_§f/warp_crates§7.
+  pmine20:
+    delay: 6000
+    items: []
+  pmine30:
+    delay: 6000
+    items:
+    - 339:0 1 lure:0 name:§r§8§l*_§4§lPRIVATE_30X30X30_MINE_VOUCHER_§8§l* lore:§r§r§8*_§7Unlocked_by_buying_at_§9§lstore.waterprison.com§7.|§r§f|§r§8*_§fTo_redeem,_DM_§aAkuroPlay_§fon_discord.|§r§8*_§c§lNOTE:_§7Do_not_§a[item]_§7this_in_public_chat.
+  pmine40:
+    delay: 6000
+    items:
+    - 339:0 1 lure:0 name:§r§8§l*_§4§lPRIVATE_40X40X40_MINE_VOUCHER_§8§l* lore:§r§r§8*_§7Unlocked_by_buying_at_§9§lstore.waterprison.com§7.|§r§f|§r§8*_§fTo_redeem,_DM_§aAkuroPlay_§fon_discord.|§r§8*_§c§lNOTE:_§7Do_not_§a[item]_§7this_in_public_chat.
+  pminefriend:
+    delay: 6000
+    items:
+    - 399:0 1 name:§r§8§l*_§a§l+1_Player_Slot_-_PMINE_§8§l* lore:§r§r§8§l*_§7Unlocked_by_buying_at_§9§lstore.waterprison.com|§r§f|§r§8*_§fTo_redeem,_DM_§aAkuroPlay_§fon_discord.|§r§8*_§c§lNOTE:_§7Do_not_§a[item]_§7this_in_public_chat.
+  Plus:
+    delay: 604800
+    items:
+    - 131:0 64 name:§a§lMINE_KEY lore:§7This_crate_key_can_be_used|§7at_§f/warp_crates§7.
+    - 131:0 16 name:§c§lVOTE_KEY lore:§7This_crate_key_can_be_used|§7at_§f/warp_crates§7.
+    - 131:0 16 name:§e§lPRESTIGE_KEY lore:§7This_crate_key_can_be_used|§7at_§f/warp_crates§7.
+    - 131:0 8 name:§d§lOP_KEY lore:§7This_crate_key_can_be_used|§7at_§f/warp_crates§7.
+    - 131:0 8 name:§9§lTAG_KEY lore:§7This_crate_key_can_be_used|§7at_§f/warp_crates§7.
+    - 131:0 1 name:§9§l2§f§l0§9§l2§f§l0_§9§lK§f§lE§9§lY lore:§7This_crate_key_can_be_used|§7at_§f/warp_crates§7.
+    - 131:0 1 name:§2§lDIVINE_KEY lore:§7This_crate_key_can_be_used|§7at_§f/warp_crates§7.
+  Keys:
+    delay: 259200
+    items:
+    - 131:0 1 name:§2§lDIVINE_KEY lore:§7This_crate_key_can_be_used|§7at_§f/warp_crates§7.
+    - 131:0 1 name:§4§lRANK_KEY lore:§7This_crate_key_can_be_used|§7at_§f/warp_crates§7.
+    - 131:0 2 name:§9§l2§f§l0§9§l2§f§l0_§9§lK§f§lE§9§lY lore:§7This_crate_key_can_be_used|§7at_§f/warp_crates§7.
+    - 131:0 4 name:§9§lTAG_KEY lore:§7This_crate_key_can_be_used|§7at_§f/warp_crates§7.
+    - 131:0 4 name:§d§lOP_KEY lore:§7This_crate_key_can_be_used|§7at_§f/warp_crates§7.
+    - 131:0 4 name:§a§l§a§lC§b§lO§c§lS§d§lM§e§lE§f§lT§6§lI§9§lC_§2§lK§3§lE§4§lY lore:§7This_crate_key_can_be_used|§7at_§f/warp_crates§7.
+    - 131:0 4 name:§e§lPRESTIGE_KEY lore:§7This_crate_key_can_be_used|§7at_§f/warp_crates§7.
+    - 131:0 8 name:§c§lVOTE_KEY lore:§7This_crate_key_can_be_used|§7at_§f/warp_crates§7.
+    - 131:0 8 name:§a§lMINE_KEY lore:§7This_crate_key_can_be_used|§7at_§f/warp_crates§7.
+  Keys+:
+    delay: 259200
+    items:
+    - 131:0 2 name:§2§lDIVINE_KEY lore:§7This_crate_key_can_be_used|§7at_§f/warp_crates§7.
+    - 131:0 2 name:§4§lRANK_KEY lore:§7This_crate_key_can_be_used|§7at_§f/warp_crates§7.
+    - 131:0 4 name:§9§l2§f§l0§9§l2§f§l0_§9§lK§f§lE§9§lY lore:§7This_crate_key_can_be_used|§7at_§f/warp_crates§7.
+    - 131:0 8 name:§9§lTAG_KEY lore:§7This_crate_key_can_be_used|§7at_§f/warp_crates§7.
+    - 131:0 8 name:§d§lOP_KEY lore:§7This_crate_key_can_be_used|§7at_§f/warp_crates§7.
+    - 131:0 8 name:§a§l§a§lC§b§lO§c§lS§d§lM§e§lE§f§lT§6§lI§9§lC_§2§lK§3§lE§4§lY lore:§7This_crate_key_can_be_used|§7at_§f/warp_crates§7.
+    - 131:0 8 name:§e§lPRESTIGE_KEY lore:§7This_crate_key_can_be_used|§7at_§f/warp_crates§7.
+    - 131:0 16 name:§c§lVOTE_KEY lore:§7This_crate_key_can_be_used|§7at_§f/warp_crates§7.
+    - 131:0 16 name:§a§lMINE_KEY lore:§7This_crate_key_can_be_used|§7at_§f/warp_crates§7.
+  Boosters:
+    delay: 259200
+    items:
+    - 175:0 1 luck:1 name:§8§l*_§a§l1.5X_GLOBAL_MULTIPLIER_§7(12h)_§8§l* lore:§8*_§7Using_this_voucher_will_add_§a12_hours|___§7to_the_current_global_multiplier.|§8§l(§9§l!§8§l)_§7Right_click_to_redeem.
+    - 175:0 1 luck:1 name:§8§l*_§a§l2.0X_GLOBAL_MULTIPLIER_§7(12h)_§8§l* lore:§8*_§7Using_this_voucher_will_add_§a12_hours|___§7to_the_current_global_multiplier.|§8§l(§9§l!§8§l)_§7Right_click_to_redeem.
+  Tokens:
+    delay: 86400
+    items:
+    - 378:0 1 luck:1 name:§8§l*_§9§l20,000_TOKENS_§8§l* lore:§8*_§fReceived_from_§9/kit_tokens§f.|§8*_§7You_will_receive_§920,000_tokens§7_on_redemption.|§8§l(§9§l!§8§l)_§7Right_click_to_redeem.
+  Starter:
+    delay: 86400
+    items:
+    - 276:0 1 damage_all:5 durability:5 name:§r§8[§a§lSTARTER_SWORD§8]
+    - 278:0 1 dig_speed:10 durability:10 loot_bonus_blocks:10 name:§r§8[§a§lSTARTER_PICKAXE§8] lore:§r§7Efficiency_X|§r§7Fortune_X|§r§7Unbreaking_X|§r§7AutoSell_I
+    - 279:0 1 dig_speed:5 durability:5 name:§r§8[§a§lSTARTER_AXE§8]
+    - 310:0 1 protection_environmental:5 durability:5 name:§r§8[§a§lSTARTER_HELMET§8]
+    - 311:0 1 protection_environmental:5 durability:5 name:§r§8[§a§lSTARTER_CHESTPLATE§8]
+    - 312:0 1 protection_environmental:5 durability:5 name:§r§8[§a§lSTARTER_LEGGINGS§8]
+    - 313:0 1 protection_environmental:5 durability:5 protection_fall:1 name:§r§8[§a§lSTARTER_BOOTS§8]
+  Coal:
+    delay: 86400
+    items:
+    - 276:0 1 damage_all:6 durability:6 name:§r§8[§7§lCOAL_SWORD§8]
+    - 278:0 1 dig_speed:15 durability:15 loot_bonus_blocks:15 name:§r§8[§7§lCOAL_PICKAXE§8] lore:§r§7Efficiency_15|§r§7Fortune_15|§r§7Unbreaking_X|§r§7AutoSell_I
+    - 279:0 1 dig_speed:6 durability:6 name:§r§8[§7§lCOAL_AXE§8]
+    - 310:0 1 protection_environmental:6 durability:6 name:§r§8[§7§lCOAL_HELMET§8]
+    - 311:0 1 protection_environmental:6 durability:6 name:§r§8[§7§lCOAL_CHESTPLATE§8]
+    - 312:0 1 protection_environmental:6 durability:6 name:§r§8[§7§lCOAL_LEGGINGS§8]
+    - 313:0 1 protection_environmental:6 durability:6 name:§r§8[§7§lCOAL_BOOTS§8]
+  Iron:
+    delay: 86400
+    items:
+    - 276:0 1 damage_all:7 durability:7 name:§r§8[§7§lIRON_SWORD§8] lore:§r§7Sharpness_VII|§r§7Unbreaking_VII
+    - 278:0 1 dig_speed:20 durability:20 loot_bonus_blocks:20 name:§r§8[§7§lIRON_PICKAXE§8] lore:§r§7Efficiency_20|§r§7Fortune_20|§r§7Unbreaking_X|§r§7AutoSell_I
+    - 279:0 1 dig_speed:7 damage_all:2 durability:7 name:§r§8[§7§lIRON_AXE§8] lore:§r§7Efficiency_VII|§r§7Sharpness_II|§r§7Unbreaking_VII
+    - 310:0 1 protection_environmental:9 durability:9 name:§r§8[§7§lIRON_HELMET§8] lore:§r§7Protection_IX
+    - 311:0 1 protection_environmental:9 durability:9 name:§r§8[§7§lIRON_CHESTPLATE§8] lore:§r§7Protection_IX
+    - 312:0 1 protection_environmental:9 durability:9 name:§r§8[§7§lIRON_LEGGINGS§8] lore:§r§7Protection_IX
+    - 313:0 1 protection_environmental:9 durability:9 name:§r§8[§7§lIRON_BOOTS§8] lore:§r§7Protection_IX
+    - 322:1 1
+  Gold:
+    delay: 86400
+    items:
+    - 276:0 1 damage_all:8 loot_bonus_mobs:1 durability:8 name:§r§8[§e§lGOLD_SWORD§8]
+    - 278:0 1 dig_speed:30 durability:30 loot_bonus_blocks:30 name:§r§8[§e§lGOLD_PICKAXE§8] lore:§r§7Efficiency_30|§r§7Fortune_30|§r§7Unbreaking_X|§r§7AutoSell_I
+    - 279:0 1 damage_all:3 dig_speed:10 durability:10 name:§r§8[§e§lGOLD_AXE§8]
+    - 310:0 1 protection_environmental:10 durability:10 name:§r§8[§e§lGOLD_HELMET§8] lore:§r§7Protection_X|§r§7Unbreaking_X
+    - 311:0 1 protection_environmental:10 durability:10 name:§r§8[§e§lGOLD_CHESTPLATE§8] lore:§r§7Protection_X|§r§7Unbreaking_X
+    - 312:0 1 protection_environmental:10 durability:10 name:§r§8[§e§lGOLD_LEGGINGS§8] lore:§r§7Protection_X|§r§7Unbreaking_X
+    - 313:0 1 protection_environmental:10 durability:10 name:§r§8[§e§lGOLD_BOOTS§8]
+    - 322:1 2
+  Diamond:
+    delay: 86400
+    items:
+    - 276:0 1 damage_all:9 fire_aspect:1 durability:9 name:§r§8[§b§lDIAMOND_SWORD§8] lore:§r§7Sharpness_IX|§r§7Unbreaking_IX
+    - 278:0 1 dig_speed:40 durability:40 loot_bonus_blocks:40 name:§r§8[§b§lDIAMOND_PICKAXE§8] lore:§r§7Efficiency_40|§r§7Fortune_40|§r§7Unbreaking_X|§r§7AutoSell_I
+    - 279:0 1 damage_all:5 dig_speed:10 durability:10 name:§r§8[§b§lDIAMOND_AXE§8] lore:§r§7Efficiency_X|§r§7Sharpness_V|§r§7Unbreaking_X
+    - 310:0 1 protection_environmental:11 durability:11 name:§r§8[§b§lDIAMOND_HELMET§8] lore:§r§7Protection_X|§r§7Unbreaking_X
+    - 311:0 1 protection_environmental:11 durability:11 name:§r§8[§b§lDIAMOND_CHESTPLATE§8] lore:§r§7Protection_X|§r§7Unbreaking_X
+    - 312:0 1 protection_environmental:11 durability:11 name:§r§8[§b§lDIAMOND_LEGGINGS§8] lore:§r§7Protection_X|§r§7Unbreaking_X
+    - 313:0 1 protection_environmental:11 durability:11 name:§r§8[§b§lDIAMOND_BOOTS§8] lore:§r§7Protection_X|§r§7Unbreaking_X
+  Emerald:
+    delay: 86400
+    items:
+    - 276:0 1 damage_all:10 durability:10 fire_aspect:3 loot_bonus_mobs:3 name:§r§8[§a§lEMERALD_SWORD§8] lore:§r§7Sharpness_X|§r§7Unbreaking_X|§r§7Fire_Aspect_III|§r§7Looting_III
+    - 278:0 1 dig_speed:50 durability:50 loot_bonus_blocks:50 name:§r§8[§a§lEMERALD_PICKAXE§8] lore:§r§7Efficiency_50|§r§7Fortune_50|§r§7Unbreaking_X|§r§7AutoSell_I
+    - 279:0 1 damage_all:6 dig_speed:10 durability:6 name:§r§8[§a§lEMERALD_AXE§8] lore:§r§7Efficiency_X|§r§7Sharpness_VI|§r§7Unbreaking_VI
+    - 310:0 1 protection_environmental:12 durability:12 name:§r§8[§a§lEMERALD_HELMET§8] lore:§r§7Protection_X|§r§7Unbreaking_X
+    - 311:0 1 protection_environmental:12 durability:12 name:§r§8[§a§lEMERALD_CHESTPLATE§8] lore:§r§7Protection_X|§r§7Unbreaking_X
+    - 312:0 1 protection_environmental:12 durability:12 name:§r§8[§a§lEMERALD_LEGGINGS§8] lore:§r§7Protection_X|§r§7Unbreaking_X
+    - 313:0 1 protection_environmental:12 durability:12 name:§r§8[§a§lEMERALD_BOOTS§8] lore:§r§7Protection_X|§r§7Unbreaking_X
+    - 322:1 5
+  Obsidian:
+    delay: 86400
+    items:
+    - 276:0 1 damage_all:12 durability:12 knockback:1 fire_aspect:3 loot_bonus_mobs:3 name:§r§8[§5§lOBSIDIAN_SWORD§8] lore:§r§7Knockback_I|§r§7Sharpness_X|§r§7Unbreaking_X|§r§7Fire_Aspect_III|§r§7Looting_III
+    - 278:0 1 dig_speed:60 durability:60 loot_bonus_blocks:60 name:§r§8[§5§lOBSIDIAN_PICKAXE§8] lore:§r§7Efficiency_60|§r§7Fortune_60|§r§7Unbreaking_X|§r§7AutoSell_I
+    - 279:0 1 damage_all:10 dig_speed:10 damage_undead:1 durability:10 name:§r§8[§5§lOBSIDIAN_AXE§8] lore:§r§7Efficiency_X|§r§7Smite_I|§r§7Sharpness_X|§r§7Unbreaking_X
+    - 310:0 1 protection_environmental:15 durability:15 name:§r§8[§5§lOBSIDIAN_HELMET§8] lore:§r§7Protection_X|§r§7Unbreaking_X
+    - 311:0 1 protection_environmental:15 durability:15 name:§r§8[§5§lOBSIDIAN_CHESTPLATE§8] lore:§r§7Protection_X|§r§7Unbreaking_X
+    - 312:0 1 protection_environmental:15 durability:15 name:§r§8[§5§lOBSIDIAN_LEGGINGS§8] lore:§r§7Protection_X|§r§7Unbreaking_X
+    - 313:0 1 protection_environmental:15 durability:15 name:§r§8[§5§lOBSIDIAN_BOOTS§8] lore:§r§7Protection_X|§r§7Unbreaking_X
+    - 322:1 8
+  Bedrock:
+    delay: 86400
+    items:
+    - 276:0 1 damage_all:15 durability:15 knockback:2 fire_aspect:3 loot_bonus_mobs:3 name:§r§8[§7§lB§8§lE§7§lD§8§lR§7§lO§8§lC§7§lK_§8§lS§7§lW§8§lO§7§lR§8§lD§8] lore:§r§7Knockback_II|§r§7Sharpness_X|§r§7Unbreaking_X|§r§7Fire_Aspect_III|§r§7Looting_III
+    - 278:0 1 dig_speed:75 durability:75 name:§r§8[§7§lB§8§lE§7§lD§8§lR§7§lO§8§lC§7§lK_§8§lP§7§lI§8§lC§7§lK§8§lA§7§lX§8§lE§8] lore:§r§7Efficiency_75|§r§7Unbreaking_X|§r§7AutoSell_I
+    - 279:0 1 damage_all:12 dig_speed:12 durability:12 name:§r§8[§7§lB§8§lE§7§lD§8§lR§7§lO§8§lC§7§lK_§8§lA§7§lX§8§lE§8] lore:§r§7Efficiency_X|§r§7Sharpness_X|§r§7Unbreaking_X
+    - 310:0 1 protection_environmental:20 durability:20 name:§r§8[§7§lB§8§lE§7§lD§8§lR§7§lO§8§lC§7§lK_§8§lH§7§lE§8§lL§7§lM§8§lE§7§lT§8] lore:§r§7Protection_X|§r§7Unbreaking_X
+    - 311:0 1 protection_environmental:20 durability:20 name:§r§8[§7§lB§8§lE§7§lD§8§lR§7§lO§8§lC§7§lK_§8§lC§7§lH§8§lE§7§lS§8§lT§7§lP§8§lL§7§lA§8§lT§7§lE§8] lore:§r§7Protection_X|§r§7Unbreaking_X
+    - 312:0 1 protection_environmental:20 durability:20 name:§r§8[§7§lB§8§lE§7§lD§8§lR§7§lO§8§lC§7§lK_§8§lL§7§lE§8§lG§7§lG§8§lI§7§lN§8§lG§7§lS§8] lore:§r§7Protection_X|§r§7Unbreaking_X
+    - 313:0 1 protection_environmental:20 durability:20 name:§r§8[§7§lB§8§lE§7§lD§8§lR§7§lO§8§lC§7§lK_§8§lB§7§lO§8§lO§7§lT§8§lS§8] lore:§r§7Protection_X|§r§7Unbreaking_X
+    - 322:1 16
+  Water:
+    delay: 86400
+    items:
+    - 278:0 1 dig_speed:100 durability:100 loot_bonus_blocks:100 name:§r§8[§9§lWATER_PICKAXE§8] lore:§r§7Efficiency_100|§r§7Fortune_100|§r§7Unbreaking_X|§r§7AutoSell_I
+  100pick:
+    delay: 0
+    items:
+    - 278:0 1 dig_speed:100 durability:100 loot_bonus_blocks:100 name:§r§8[§e§l100_PICKAXE§8] lore:§r§7Efficiency_100|§r§7Fortune_100|§r§7Unbreaking_X|§r§7AutoSell_I
+  200pick:
+    delay: 0
+    items:
+    - 278:0 1 dig_speed:200 durability:200 loot_bonus_blocks:200 name:§r§8[§d§l200_PICKAXE§8] lore:§r§7Efficiency_200|§r§7Fortune_200|§r§7Unbreaking_X|§r§7AutoSell_I
+  300pick:
+    delay: 0
+    items:
+    - 278:0 1 dig_speed:300 durability:300 loot_bonus_blocks:300 name:§r§8[§6§l300_PICKAXE§8] lore:§r§7Efficiency_300|§r§7Fortune_300|§r§7Unbreaking_X|§r§7AutoSell_I
+  Food:
+    delay: 960
+    items:
+    - 364:0 64
+  MaxPick:
+    delay: 6000
+    items:
+    - 278:0 1 dig_speed:1000 durability:1000 loot_bonus_blocks:10000 name:§r§8[§9§lMAX_PICKAXE§8] lore:§8§l*_§fSpeed_X|§8§l*_§cJackhammer§f_50|§8§l*_§cDrill§f_III|§8§l*_§dLucky§f_100|§8§l*_§eHaste_X|§8§l*_§fJump_X|§8§l*_§cExplosive§f_500|§8§l*_§6Fly§f_I|§8§l*_§aEfficiency§f_1000|§8§l*_§cExcavation§f_X|§8§l*_§aFortune§f_10000|§8§l*_§9Autosell§f_I|§8§l*_§cDisk§f_V|§8§l*_§aUnbreaking§f_1000
+enabledSigns:
+- color
+sign-use-per-second: 4
+backup:
+  interval: 30
+per-warp-permission: true
+list:
+  Admins: owner admin
+debug: false
+remove-god-on-disconnect: false
+auto-afk: 300
+auto-afk-kick: -1
+freeze-afk-players: false
+disable-item-pickup-while-afk: false
+cancel-afk-on-interact: true
+cancel-afk-on-move: true
+death-messages: true
+allow-silent-join-quit: false
+custom-join-message: '&8[&a&l+&8] &7{USERNAME}'
+custom-quit-message: '&8[&c&l-&8] &7{USERNAME}'
+world-teleport-permissions: false
+default-stack-size: -1
+oversized-stacksize: 64
+repair-enchanted: true
+unsafe-enchantments: true
+register-back-in-listener: false
+login-attack-delay: 5
+max-fly-speed: 0.8
+max-walk-speed: 0.8
+mails-per-minute: 1000
+max-tempban-time: -1
+last-message-reply-recipient: true
+milk-bucket-easter-egg: true
+update-bed-at-daytime: true
+world-home-permissions: false
+sethome-multiple:
+  default: 3
+  vip: 5
+  staff: 10
+tpa-accept-cancellation: 120
+starting-balance: 0
+currency-symbol: $
+max-money: 10000000000000000000000000000000000000000000000000000000000
+min-money: -10000
+economy-log-enabled: false
+use-bukkit-permissions: false
+minimum-pay-amount: 0.001
+last-message-reply-recipient-timeout: 180
+non-ess-in-help: true
+hide-permissionless-help: true
+chat:
+  radius: 0
+  format: '{prestige}&8 &7{DISPLAYNAME} {deluxetags_tag}&8» &7{MESSAGE}'
+protect:
+  prevent:
+    lava-flow: false
+    water-flow: false
+    water-bucket-flow: false
+    fire-spread: true
+    lava-fire-spread: true
+    flint-fire: false
+    lightning-fire-spread: true
+    portal-creation: false
+    tnt-explosion: false
+    tnt-playerdamage: false
+    tnt-minecart-explosion: false
+    tnt-minecart-playerdamage: false
+    fireball-explosion: false
+    fireball-fire: false
+    fireball-playerdamage: false
+    witherskull-explosion: false
+    witherskull-playerdamage: false
+    wither-spawnexplosion: false
+    wither-blockreplace: false
+    creeper-explosion: false
+    creeper-playerdamage: false
+    creeper-blockdamage: false
+    enderdragon-blockdamage: true
+    enderman-pickup: false
+    villager-death: false
+    entitytarget: false
+    spawn:
+      creeper: false
+      skeleton: false
+      spider: false
+      giant: false
+      zombie: false
+      slime: false
+      ghast: false
+      pig_zombie: false
+      enderman: false
+      cave_spider: false
+      silverfish: false
+      blaze: false
+      magma_cube: false
+      ender_dragon: false
+      pig: false
+      sheep: false
+      cow: false
+      chicken: false
+      squid: false
+      wolf: false
+      mushroom_cow: false
+      snowman: false
+      ocelot: false
+      iron_golem: false
+      villager: false
+      wither: false
+      bat: false
+      witch: false
+      horse: false
+  creeper:
+    max-height: -1
+  disable:
+    fall: false
+    pvp: false
+    drown: false
+    suffocate: false
+    lavadmg: false
+    projectiles: false
+    contactdmg: false
+    firedmg: false
+    lightning: false
+    wither: false
+    weather:
+      storm: false
+      thunder: false
+      lightning: false
+    build: true
+    use: true
+    warn-on-build-disallow: true
+  alert:
+    on-placement: 10,11,46,327
+    on-use: 327
+  blacklist:
+    placement: 10,11,46,327
+    usage: 327
+newbies:
+  announce-format: '&9&lW&f&lP &8/ / &9Welcome &f{DISPLAYNAME} &9to &9&lWATER&f&lPRISON
+    &8[&f#{UNIQUE}&8]'
+  spawnpoint: newbies
+  kit: tools
+respawn-listener-priority: high
+respawn-at-home: false
